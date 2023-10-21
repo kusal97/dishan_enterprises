@@ -1,6 +1,7 @@
 import React from "react";
 import backgroundVideo from "../assets/vedios/car_animation.mp4";
 import Header from "../components/Header";
+import AppFooter from "../components/AppFooter";
 
 const MainScreen = () => {
   return (
@@ -12,6 +13,7 @@ const MainScreen = () => {
         <h1>WELCOME</h1>
         <h1>TO</h1>
       </div>
+      <AppFooter />
     </div>
   );
 };

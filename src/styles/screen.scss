@@ -41,3 +41,30 @@
     }
 }
 
+.pre-used-cars-page{
+    width: 100%;
+    padding-top: 20px;
+    background-color: black;
+
+    .header{
+        position: relative;
+        margin-top: 2vh;
+    }
+
+    .content{
+        display: flex;
+        align-items: flex-start; 
+        
+        
+        .car-list{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            background-color: rgb(32,32,32);             
+        }
+    }
+
+    .footer{
+        position: relative;
+    }
+}
