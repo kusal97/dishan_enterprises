@@ -20,9 +20,14 @@
     .itm-list{
         display: flex;
         justify-content: center;
+        margin-top: 2vh;
         .itm{
             margin-left: 2vw;
             margin-right: 2vw;
+        }
+
+        .itm:hover{
+            color: yellow;
         }
     }
 
@@ -88,6 +93,11 @@
             margin-left: 30px;
         }
     }
+}
+
+.card-component:hover{
+    background-color: black;
+    color: yellow;
 }
 
 /*Footer component*/
