@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { LeftOutlined } from "@ant-design/icons";
 import ImageSlider from "../components/ImageSlider";
 import AppFooter from "../components/AppFooter";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
+import { cars } from "../constants/constants";
 
 const specs = [
   "New Shell",
@@ -20,8 +21,17 @@ const specs = [
   "Engine & Running Perfect",
 ];
 
-const CarDetailsPage = () => {
+const CarDetailsPage = (props) => {
   const navigate = useNavigate();
+  const params = useParams();
+  const [carData, setCarData] = useState({});
+  const [specsA, setSpecsA] = useState([]);
+
+  useEffect(() => {
+    setCarData(cars.find((car) => car.id.toString() === params.id));
+    setSpecsA(carData.specs);
+    console.log(specsA);
+  }, [specsA]);
 
   return (
     <div className="details-page">
@@ -33,10 +43,10 @@ const CarDetailsPage = () => {
           }}
         />
         <div className="title-year">
-          <div className="detail-title">HONDA CIVIC SR</div>
-          <div className="detail-year">2018/2019</div>
+          <div className="detail-title">{carData.title}</div>
+          <div className="detail-year">{carData.year}</div>
         </div>
-        <div className="header-price">15M</div>
+        <div className="header-price">{carData.price}</div>
       </div>
       <div className="details-content">
         <div className="details-gallery">
