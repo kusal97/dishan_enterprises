@@ -1,0 +1,15 @@
+/*Footer component*/
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(0,0,0,0.3);
+    color: white;  
+    font-weight: bold;  
+    height: 50px;
+    font-size: 0.6rem;
+}

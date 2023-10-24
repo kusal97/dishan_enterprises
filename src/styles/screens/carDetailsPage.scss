@@ -1,0 +1,188 @@
+.details-page {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    .details-header {
+      background-color: black;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      height: 100px;
+      width: 100%;
+  
+      .back-icn {
+        flex: 1;
+        color: white;
+        font-size: 3rem;
+        @media only screen and (orientation: portrait) {
+          font-size: 2.2rem;
+          margin-left: 10px;
+        }
+      }
+  
+      .title-year {
+        flex: 20;
+  
+        .detail-title {
+          color: white;
+          font-size: 1.8rem;
+          font-weight: bold;
+          margin-left: 1rem;
+  
+          @media only screen and (orientation: portrait) {
+            font-size: 1.2rem;
+            margin-left: 0.5rem;
+          }
+        }
+  
+        .detail-year {
+          color: white;
+          font-size: 1rem;
+          font-weight: bold;
+          margin-left: 1rem;
+  
+          @media only screen and (orientation: portrait) {
+            font-size: 1rem;
+            margin-left: 0.5rem;
+          }
+        }
+      }
+  
+      .header-price {
+        flex: 1;
+        color: white;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-size: 1.8rem;
+        font-weight: bold;
+        margin-right: 30px;
+        background-color: red;
+        padding: 10px;
+  
+        @media only screen and (orientation: portrait) {
+          font-size: 1.2rem;
+        }
+      }
+    }
+  
+    .details-content {
+      background-color: rgb(32, 32, 32);
+      display: flex;
+      flex-direction: row;
+      color: white;
+      height: 100%;
+  
+      @media only screen and (orientation:portrait) {
+        overflow: scroll;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+  
+      .details-gallery {
+        flex: 5;
+        margin: auto;
+        @media only screen and (orientation:portrait) {
+          flex: 5;
+          position: sticky;
+        }
+  
+        .gallery {
+          display: flex;
+          padding: 30px 30px 30px 60px;
+          align-items: center;
+  
+          @media only screen and (orientation:portrait) {
+            padding: 10px 10px 10px 15px;
+            width: 100%;
+          }
+  
+          .main-img-div{
+            flex: 8;
+            height: 100%;
+  
+            .main-img {
+              width: 100%;
+            }
+          }
+        
+  
+          .sub-imgs{
+            flex: 3;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+  
+            .sub-img-1{
+              width: 45%;
+              padding: 10px 10px 10px 0px;
+            }
+  
+            .sub-img-2{
+              width: 45%;
+              padding: 0px 10px 10px 0px;
+            }
+  
+            .sub-img-3{
+              width: 45%;
+              padding: 0px 10px 10px 0px;
+            }
+  
+            .sub-img-4{
+              width: 45%;
+              padding: 0px 10px 10px 0px;
+            }
+  
+            .sub-img-5{
+              width: 45%;
+              padding: 0px 10px 10px 0px;
+            }
+          }
+        }
+      }
+  
+      .details-specification {
+        flex: 2;
+        padding: 30px;
+  
+        @media only screen and (orientation:portrait) {
+          flex: 5;
+        }
+  
+        .spec-title{
+          align-items: flex-start;
+          margin-top: 80px;
+          font-size: 2rem;
+          font-weight: bold;
+          @media only screen and (orientation:portrait) {
+            font-size: 1.5rem;
+            margin-top: 0px;
+          }
+        }
+  
+        .list-itm-div{
+          overflow: scroll;
+          margin-top: 20px;
+  
+          .list-itm{
+            margin-top: 10px;
+            font-size: 1.3rem;
+  
+            @media only screen and (orientation:portrait) {
+              font-size: 0.8rem;
+            }
+          }
+        }
+      }
+    }
+
+    .footer {
+      position: sticky;
+      background-color: black;
+      font-size: 0.6rem;
+    }
+  }

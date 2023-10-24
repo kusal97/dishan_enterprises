@@ -1,2 +1,9 @@
-@import "./component.scss";
-@import "./screen.scss";
+//Components
+@import "./components/carCardView.scss";
+@import "./components/header.scss";
+@import "./components/footer.scss";
+
+//Screens
+@import "./screens/mainScreen.scss";
+@import "./screens/preUsedCars.scss";
+@import "./screens/carDetailsPage.scss";

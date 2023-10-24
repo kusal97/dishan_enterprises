@@ -13,7 +13,7 @@ const PreUsedCars = () => {
           {cars.map((carData, index) => (
             <div key={index}>
               <CarCardView
-                image={carData.image}
+                image={carData.mainImage}
                 title={carData.title}
                 year={carData.year}
                 price={carData.price}
