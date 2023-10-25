@@ -1,10 +1,11 @@
 .pre-used-cars-page {
-    width: 100%;
+    width: 100vw;
     padding-top: 20px;
     background-color: black;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    align-items: center;
   
     .header {
       position: sticky;
@@ -15,12 +16,14 @@
     .content {
       flex-grow: 20;
       display: flex;
+      justify-content: center;
       align-items: flex-start;
+      margin: auto;
   
       .car-list {
         width: 100%;
         display: flex;
-        flex-flow: row wrap;
+        flex-wrap: wrap;
         justify-content: center;
         background-color: rgb(32, 32, 32);
         height: 100%;
@@ -31,5 +34,6 @@
       position: sticky;
       background-color: black;
       font-size: 0.6rem;
+      height: 50px;
     }
   }

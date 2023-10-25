@@ -5,33 +5,16 @@ import AppFooter from "../components/AppFooter";
 import { useNavigate, useParams } from "react-router-dom";
 import { cars } from "../constants/constants";
 
-const specs = [
-  "New Shell",
-  "Key start / 2-Smart keys",
-  "Dual Multifunctions",
-  "02nd Owner",
-  "Manufacture-2018",
-  "LED Head Lights",
-  "1000cc / Automatic",
-  "15Km/L",
-  "ABS, Air Bags",
-  "DVD, R/cam",
-  "3D Carpets",
-  "Winker / Retractable mirrors",
-  "Engine & Running Perfect",
-];
-
 const CarDetailsPage = (props) => {
   const navigate = useNavigate();
   const params = useParams();
   const [carData, setCarData] = useState({});
-  const [specsA, setSpecsA] = useState([]);
+  const [specs, setSpecs] = useState([]);
 
   useEffect(() => {
-    setCarData(cars.find((car) => car.id.toString() === params.id));
-    setSpecsA(carData.specs);
-    console.log(specsA);
-  }, [specsA]);
+    setCarData(cars.find((car) => car.id.toString() === params?.id));
+    setSpecs(carData.specs);
+  }, [carData, specs, params]);
 
   return (
     <div className="details-page">
@@ -50,13 +33,13 @@ const CarDetailsPage = (props) => {
       </div>
       <div className="details-content">
         <div className="details-gallery">
-          <ImageSlider />
+          <ImageSlider images={carData.images} />
         </div>
         <div className="details-specification">
           <div className="spec-title">Specifications</div>
           <div className="list-itm-div">
             <ul>
-              {specs.map((spec, index) => (
+              {specs?.map((spec, index) => (
                 <li className="list-itm" key={index}>
                   {spec}
                 </li>
