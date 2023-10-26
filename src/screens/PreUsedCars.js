@@ -25,6 +25,7 @@ const PreUsedCars = () => {
                 title={carData.title}
                 year={carData.year}
                 price={carData.price}
+                number_plate={carData.number_plate}
               />
             </div>
           ))}

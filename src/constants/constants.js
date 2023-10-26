@@ -3,6 +3,7 @@ export const cars = [
     id: 1,
     title: "HONDA CIVIC SR",
     year: "2018/2019",
+    number_plate: "CXX - 6520",
     mainImage:
       "https://scontent.fcmb1-2.fna.fbcdn.net/v/t39.30808-6/386748067_819048696890026_6207642443868168111_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=XSfFDvra1SoAX9a3yp8&_nc_ht=scontent.fcmb1-2.fna&oh=00_AfB7JPm37xLkC_tPY75OTqRtBFKUFtWMhTkCvUChqgbmQw&oe=6538372B",
     images: [
@@ -33,6 +34,7 @@ export const cars = [
     id: 2,
     title: "HONDA CHR GT NGX50 ",
     year: "2018/2018",
+    number_plate: "CXX - 6520",
     mainImage:
       "https://scontent.fcmb1-2.fna.fbcdn.net/v/t39.30808-6/370568364_790449849749911_725272160435552034_n.jpg?stp=cp6_dst-jpg&_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=tryCMMhK1SYAX96ihlN&_nc_ht=scontent.fcmb1-2.fna&oh=00_AfA7I_ofQqoRBlpU_zw2PCfaNApVAMbbkY0lYYCslO8q7A&oe=653D3B83",
     images: [
@@ -63,6 +65,7 @@ export const cars = [
     id: 3,
     title: "HONDA VEZEL",
     year: "2016/2017",
+    number_plate: "CXX - 6520",
     mainImage:
       "https://scontent.fcmb1-2.fna.fbcdn.net/v/t39.30808-6/349989166_1043259099974676_2600937102131132104_n.jpg?stp=dst-jpg_s600x600&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=cnWDexT8Qn0AX9a6c4k&_nc_ht=scontent.fcmb1-2.fna&oh=00_AfB9we6YSeXFsKJe77fCNOIM0L38UfjdJ3i7dA-wbbiQ0Q&oe=653F0B1D",
     images: [
@@ -93,6 +96,7 @@ export const cars = [
     id: 4,
     title: "TOYOTA PRIUS 4TH GEN",
     year: "2018/2019",
+    number_plate: "CXX - 6520",
     mainImage:
       "https://scontent.fcmb1-2.fna.fbcdn.net/v/t39.30808-6/343649154_638833584765080_2172477015015699074_n.jpg?stp=dst-jpg_s600x600&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=oOOm4mHpQV0AX9xS_w-&_nc_ht=scontent.fcmb1-2.fna&oh=00_AfBJEGh1fUwcf2O66yXJnxDCJZBNmcp8JneLro6FMMGzEA&oe=653E3B59",
     images: [
@@ -123,6 +127,7 @@ export const cars = [
     id: 5,
     title: "HONDA CIVIC SR",
     year: "2018/2019",
+    number_plate: "CXX - 6520",
     mainImage:
       "https://scontent.fcmb1-2.fna.fbcdn.net/v/t39.30808-6/386748067_819048696890026_6207642443868168111_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=XSfFDvra1SoAX9a3yp8&_nc_ht=scontent.fcmb1-2.fna&oh=00_AfB7JPm37xLkC_tPY75OTqRtBFKUFtWMhTkCvUChqgbmQw&oe=6538372B",
     images: [
@@ -153,6 +158,7 @@ export const cars = [
     id: 6,
     title: "HONDA CHR GT NGX50 ",
     year: "2018/2018",
+    number_plate: "CXX - 6520",
     mainImage:
       "https://scontent.fcmb1-2.fna.fbcdn.net/v/t39.30808-6/370568364_790449849749911_725272160435552034_n.jpg?stp=cp6_dst-jpg&_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=tryCMMhK1SYAX96ihlN&_nc_ht=scontent.fcmb1-2.fna&oh=00_AfA7I_ofQqoRBlpU_zw2PCfaNApVAMbbkY0lYYCslO8q7A&oe=653D3B83",
     images: [
@@ -183,6 +189,7 @@ export const cars = [
     id: 7,
     title: "HONDA VEZEL",
     year: "2016/2017",
+    number_plate: "CXX - 6520",
     mainImage:
       "https://scontent.fcmb1-2.fna.fbcdn.net/v/t39.30808-6/349989166_1043259099974676_2600937102131132104_n.jpg?stp=dst-jpg_s600x600&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=cnWDexT8Qn0AX9a6c4k&_nc_ht=scontent.fcmb1-2.fna&oh=00_AfB9we6YSeXFsKJe77fCNOIM0L38UfjdJ3i7dA-wbbiQ0Q&oe=653F0B1D",
     images: [
@@ -213,6 +220,7 @@ export const cars = [
     id: 8,
     title: "TOYOTA PRIUS 4TH GEN",
     year: "2018/2019",
+    number_plate: "CXX - 6520",
     mainImage:
       "https://scontent.fcmb1-2.fna.fbcdn.net/v/t39.30808-6/343649154_638833584765080_2172477015015699074_n.jpg?stp=dst-jpg_s600x600&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=oOOm4mHpQV0AX9xS_w-&_nc_ht=scontent.fcmb1-2.fna&oh=00_AfBJEGh1fUwcf2O66yXJnxDCJZBNmcp8JneLro6FMMGzEA&oe=653E3B59",
     images: [
@@ -243,6 +251,7 @@ export const cars = [
     id: 9,
     title: "HONDA CIVIC SR",
     year: "2018/2019",
+    number_plate: "CXX - 6520",
     mainImage:
       "https://scontent.fcmb1-2.fna.fbcdn.net/v/t39.30808-6/386748067_819048696890026_6207642443868168111_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=XSfFDvra1SoAX9a3yp8&_nc_ht=scontent.fcmb1-2.fna&oh=00_AfB7JPm37xLkC_tPY75OTqRtBFKUFtWMhTkCvUChqgbmQw&oe=6538372B",
     images: [
@@ -273,6 +282,7 @@ export const cars = [
     id: 10,
     title: "HONDA CHR GT NGX50 ",
     year: "2018/2018",
+    number_plate: "CXX - 6520",
     mainImage:
       "https://scontent.fcmb1-2.fna.fbcdn.net/v/t39.30808-6/370568364_790449849749911_725272160435552034_n.jpg?stp=cp6_dst-jpg&_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=tryCMMhK1SYAX96ihlN&_nc_ht=scontent.fcmb1-2.fna&oh=00_AfA7I_ofQqoRBlpU_zw2PCfaNApVAMbbkY0lYYCslO8q7A&oe=653D3B83",
     images: [
@@ -303,6 +313,7 @@ export const cars = [
     id: 11,
     title: "HONDA VEZEL",
     year: "2016/2017",
+    number_plate: "CXX - 6520",
     mainImage:
       "https://scontent.fcmb1-2.fna.fbcdn.net/v/t39.30808-6/349989166_1043259099974676_2600937102131132104_n.jpg?stp=dst-jpg_s600x600&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=cnWDexT8Qn0AX9a6c4k&_nc_ht=scontent.fcmb1-2.fna&oh=00_AfB9we6YSeXFsKJe77fCNOIM0L38UfjdJ3i7dA-wbbiQ0Q&oe=653F0B1D",
     images: [
@@ -332,6 +343,7 @@ export const cars = [
   {
     id: 12,
     title: "TOYOTA PRIUS 4TH GEN",
+    number_plate: "CXX - 6520",
     year: "2018/2019",
     mainImage:
       "https://scontent.fcmb1-2.fna.fbcdn.net/v/t39.30808-6/343649154_638833584765080_2172477015015699074_n.jpg?stp=dst-jpg_s600x600&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=oOOm4mHpQV0AX9xS_w-&_nc_ht=scontent.fcmb1-2.fna&oh=00_AfBJEGh1fUwcf2O66yXJnxDCJZBNmcp8JneLro6FMMGzEA&oe=653E3B59",

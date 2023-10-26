@@ -8,6 +8,7 @@ const CarCardView = (props) => {
         <div className="div-desc">
           <h1 className="card-title">{props.title}</h1>
           <h1 className="card-year">{props.year}</h1>
+          <h1 className="card-number">{props.number_plate}</h1>
         </div>
         <hr className="vr-line" dir="vertical" color="white" />
         <div className="card-price">{props.price}</div>
