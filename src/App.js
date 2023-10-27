@@ -4,6 +4,7 @@ import "./styles/app.scss";
 import PreUsedCars from "./screens/PreUsedCars";
 import BrandNewCars from "./screens/BrandNewCars";
 import CarDetailsPage from "./screens/CarDetailsPage";
+import AdminPage from "./screens/AdminPage";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Route path="/pre-used" element={<PreUsedCars />} />
       <Route path="/brand-new" element={<BrandNewCars />} />
       <Route path="/pre-used/:id" element={<CarDetailsPage />} />
+      <Route path="/admin" element={<AdminPage />} />
     </Routes>
   );
 }
