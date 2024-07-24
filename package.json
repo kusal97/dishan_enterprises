@@ -2,7 +2,7 @@
   "homepage": "https://kusal97.github.io/dishan_enterprises",
   "name": "dishan_enterprises",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@ant-design/icons": "^5.2.6",
     "@testing-library/jest-dom": "^5.17.0",
