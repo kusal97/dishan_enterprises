@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.99dcd5b3.css",
-    "main.js": "/static/js/main.bd447159.js",
-    "static/media/car_animation.mp4": "/static/media/car_animation.b5d6fd28d059bfd73b16.mp4",
-    "index.html": "/index.html",
-    "main.99dcd5b3.css.map": "/static/css/main.99dcd5b3.css.map",
-    "main.bd447159.js.map": "/static/js/main.bd447159.js.map"
+    "main.css": "/dishan_enterprises/static/css/main.99dcd5b3.css",
+    "main.js": "/dishan_enterprises/static/js/main.9ae1a923.js",
+    "static/media/car_animation.mp4": "/dishan_enterprises/static/media/car_animation.b5d6fd28d059bfd73b16.mp4",
+    "index.html": "/dishan_enterprises/index.html",
+    "main.99dcd5b3.css.map": "/dishan_enterprises/static/css/main.99dcd5b3.css.map",
+    "main.9ae1a923.js.map": "/dishan_enterprises/static/js/main.9ae1a923.js.map"
   },
   "entrypoints": [
     "static/css/main.99dcd5b3.css",
-    "static/js/main.bd447159.js"
+    "static/js/main.9ae1a923.js"
   ]
 }
